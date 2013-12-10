@@ -45,6 +45,8 @@
 		A3DC63F9185538510091E002 /* thai_shrimp_cake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3DC63E9185538510091E002 /* thai_shrimp_cake.jpg */; };
 		A3DC63FA185538510091E002 /* vegetable_curry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3DC63EA185538510091E002 /* vegetable_curry.jpg */; };
 		A3DC63FB185538510091E002 /* white_chocolate_donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3DC63EB185538510091E002 /* white_chocolate_donut.jpg */; };
+		A3DC63FD185574B30091E002 /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3DC63FC185574B30091E002 /* SimpleTableCell.xib */; };
+		A3DC640018557A270091E002 /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DC63FF18557A270091E002 /* SimpleTableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +103,9 @@
 		A3DC63E9185538510091E002 /* thai_shrimp_cake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thai_shrimp_cake.jpg; sourceTree = "<group>"; };
 		A3DC63EA185538510091E002 /* vegetable_curry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegetable_curry.jpg; sourceTree = "<group>"; };
 		A3DC63EB185538510091E002 /* white_chocolate_donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = white_chocolate_donut.jpg; sourceTree = "<group>"; };
+		A3DC63FC185574B30091E002 /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = "<group>"; };
+		A3DC63FE18557A270091E002 /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
+		A3DC63FF18557A270091E002 /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +196,9 @@
 				A3DC639318549C7D0091E002 /* SimpleTableViewController.h */,
 				A3DC639418549C7D0091E002 /* SimpleTableViewController.m */,
 				A3DC639518549C7D0091E002 /* SimpleTableViewController.xib */,
+				A3DC63FC185574B30091E002 /* SimpleTableCell.xib */,
+				A3DC63FE18557A270091E002 /* SimpleTableCell.h */,
+				A3DC63FF18557A270091E002 /* SimpleTableCell.m */,
 			);
 			path = SimpleTable;
 			sourceTree = "<group>";
@@ -314,6 +322,7 @@
 				A3DC63FB185538510091E002 /* white_chocolate_donut.jpg in Resources */,
 				A3DC636F18549BE30091E002 /* InfoPlist.strings in Resources */,
 				A3DC63ED185538510091E002 /* creme_brelee.jpg in Resources */,
+				A3DC63FD185574B30091E002 /* SimpleTableCell.xib in Resources */,
 				A3DC63F8185538510091E002 /* starbucks_coffee.jpg in Resources */,
 				A3DC63F9185538510091E002 /* thai_shrimp_cake.jpg in Resources */,
 				A3DC63DB1855383C0091E002 /* yipindoufu.jpg in Resources */,
@@ -347,6 +356,7 @@
 			files = (
 				A3DC637118549BE30091E002 /* main.m in Sources */,
 				A3DC637518549BE30091E002 /* SimpleTableAppDelegate.m in Sources */,
+				A3DC640018557A270091E002 /* SimpleTableCell.m in Sources */,
 				A3DC639618549C7D0091E002 /* SimpleTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
