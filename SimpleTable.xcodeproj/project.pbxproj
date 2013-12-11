@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3A769CB1857EC31009A4A76 /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = A3A769CA1857EC31009A4A76 /* recipes.plist */; };
+		A3A769CE1857EFF7009A4A76 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A769CC1857EFF7009A4A76 /* Default.png */; };
+		A3A769CF1857EFF7009A4A76 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A769CD1857EFF7009A4A76 /* Default@2x.png */; };
 		A3DC636518549BE30091E002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DC636418549BE30091E002 /* Foundation.framework */; };
 		A3DC636718549BE30091E002 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DC636618549BE30091E002 /* CoreGraphics.framework */; };
 		A3DC636918549BE30091E002 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DC636818549BE30091E002 /* UIKit.framework */; };
@@ -60,6 +63,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A3A769CA1857EC31009A4A76 /* recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recipes.plist; sourceTree = "<group>"; };
+		A3A769CC1857EFF7009A4A76 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A3A769CD1857EFF7009A4A76 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A3DC636118549BE30091E002 /* SimpleTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DC636418549BE30091E002 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A3DC636618549BE30091E002 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -135,6 +141,8 @@
 		A3DC635818549BE30091E002 = {
 			isa = PBXGroup;
 			children = (
+				A3A769CC1857EFF7009A4A76 /* Default.png */,
+				A3A769CD1857EFF7009A4A76 /* Default@2x.png */,
 				A3DC636A18549BE30091E002 /* SimpleTable */,
 				A3DC638318549BE30091E002 /* SimpleTableTests */,
 				A3DC636318549BE30091E002 /* Frameworks */,
@@ -187,6 +195,7 @@
 				A3DC63CF1855383C0091E002 /* shenxianyazi.jpeg */,
 				A3DC63D01855383C0091E002 /* tangbaoshuangcui.jpg */,
 				A3DC63D11855383C0091E002 /* tangculiyu.jpg */,
+				A3A769CA1857EC31009A4A76 /* recipes.plist */,
 				A3DC63D21855383C0091E002 /* xiehuanghaishen.jpeg */,
 				A3DC63D31855383C0091E002 /* yipindoufu.jpg */,
 				A3DC637318549BE30091E002 /* SimpleTableAppDelegate.h */,
@@ -318,14 +327,17 @@
 				A3DC63F5185538510091E002 /* japanese_noodle_with_pork.jpg in Resources */,
 				A3DC63EF185538510091E002 /* full_breakfast.jpg in Resources */,
 				A3DC63F0185538510091E002 /* green_tea.jpg in Resources */,
+				A3A769CB1857EC31009A4A76 /* recipes.plist in Resources */,
 				A3DC63EE185538510091E002 /* egg_benedict.jpg in Resources */,
 				A3DC63FB185538510091E002 /* white_chocolate_donut.jpg in Resources */,
+				A3A769CF1857EFF7009A4A76 /* Default@2x.png in Resources */,
 				A3DC636F18549BE30091E002 /* InfoPlist.strings in Resources */,
 				A3DC63ED185538510091E002 /* creme_brelee.jpg in Resources */,
 				A3DC63FD185574B30091E002 /* SimpleTableCell.xib in Resources */,
 				A3DC63F8185538510091E002 /* starbucks_coffee.jpg in Resources */,
 				A3DC63F9185538510091E002 /* thai_shrimp_cake.jpg in Resources */,
 				A3DC63DB1855383C0091E002 /* yipindoufu.jpg in Resources */,
+				A3A769CE1857EFF7009A4A76 /* Default.png in Resources */,
 				A3DC63F4185538510091E002 /* instant_noodle_with_egg.jpg in Resources */,
 				A3DC63DA1855383C0091E002 /* xiehuanghaishen.jpeg in Resources */,
 				A3DC63F2185538510091E002 /* ham_and_egg_sandwich.jpg in Resources */,
@@ -480,6 +492,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleTable/SimpleTable-Prefix.pch";
 				INFOPLIST_FILE = "SimpleTable/SimpleTable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -495,6 +508,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleTable/SimpleTable-Prefix.pch";
 				INFOPLIST_FILE = "SimpleTable/SimpleTable-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
